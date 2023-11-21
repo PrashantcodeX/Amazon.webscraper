@@ -1,0 +1,42 @@
+product:
+    css: div.puis-card-container
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        title:
+            css: h2.a-size-mini
+            xpath: null
+            type: Text
+        image:
+            css: img.s-image
+            xpath: null
+            type: Image
+        price:
+            css: span.a-price-whole
+            xpath: null
+            type: Text
+        original_price:
+            css: 'a.a-link-normal div span.a-price span:nth-of-type(2)'
+            xpath: null
+            type: Text
+        discount:
+            css: 'div.a-section.puis-price-instructions-style div.a-row > span:nth-of-type(2)'
+            xpath: null
+            type: Text
+        review:
+            css: a.a-popover-trigger
+            xpath: null
+            type: Text
+        review_count:
+            css: 'div.a-row span span.a-size-base'
+            xpath: null
+            type: Text
+        link:
+            css: 'h2.a-size-mini a.a-link-normal'
+            xpath: null
+            type: Link
+        badge:
+            css: span.a-badge-label
+            xpath: null
+            type: Text
